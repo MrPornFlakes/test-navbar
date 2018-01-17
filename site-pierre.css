@@ -1,0 +1,53 @@
+
+body {
+  background: url(Albert_Harris_-_Coconut_shy_B.jpg);
+}
+#head-barr {
+  font-family: Brush Script MT;
+  position: fixed;
+  font-size: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #EFECCA;
+  margin: 0;
+  text-align: left 10px;
+  border: 2px;
+  border-color: black;
+  /* border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px; */
+  border-radius: 0px 50% / 20px 0em 30px 5em
+  /* border-style: outset; */
+}
+
+.type-of-event {
+  font-size: 20px;
+  margin-top: 80px;
+  margin-left: 80;
+  /* border-style: outset; */
+  border-color: black;
+  border-width: 2px;
+  background-color: #EFECCA;
+  width: 80px;
+  border-radius: 3px;
+}
+#boutton-top-right {
+  position: fixed;
+  font-size: 20px
+  top: 0;
+  right: 0;
+  height: 45px;
+  background-color: #EFECCA;
+  margin: 0;
+  border-radius: 3px;
+
+}
+#central-bloc{
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 800px;
+  background-color: #EFECCA;
+  border-radius: 5px;
+}
