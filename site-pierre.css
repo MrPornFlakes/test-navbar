@@ -1,53 +1,46 @@
 
-body {
+ body {
   background: url(Albert_Harris_-_Coconut_shy_B.jpg);
+  z-index;
 }
-#head-barr {
-  font-family: Brush Script MT;
-  position: fixed;
-  font-size: 30px;
-  top: 0;
-  left: 0;
-  width: 100%;
+
+
+#barre-top {
   height: 50px;
-  background-color: #EFECCA;
-  margin: 0;
-  text-align: left 10px;
-  border: 2px;
-  border-color: black;
-  /* border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px; */
-  border-radius: 0px 50% / 20px 0em 30px 5em
-  /* border-style: outset; */
-}
-
-.type-of-event {
-  font-size: 20px;
-  margin-top: 80px;
-  margin-left: 80;
-  /* border-style: outset; */
-  border-color: black;
-  border-width: 2px;
-  background-color: #EFECCA;
-  width: 80px;
-  border-radius: 3px;
-}
-#boutton-top-right {
   position: fixed;
-  font-size: 20px
+  width: 100%;
   top: 0;
-  right: 0;
-  height: 45px;
-  background-color: #EFECCA;
-  margin: 0;
-  border-radius: 3px;
+  z-index: = +10;
 
 }
-#central-bloc{
-  margin-top: 80px;
-  margin-left: 50px;
-  margin-right: 50px;
-  height: 800px;
+
+#logo {
   background-color: #EFECCA;
-  border-radius: 5px;
+  font-family: Brush Script MT;
+  border-radius: 0px 50% / 20px 0em 30px 5em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  padding-left: 35px;
+  font-size: 200%;
+}
+
+#boutton-top-right {
+  background-color: #EFECCA;
+  border-style: outset;
+
+}
+.col-sm-3 {
+  margin-top: 80px;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+  background-color: #EFECCA;
+  height: 800px;
+  z-index: = -10;
+
+
+}
+
+#colones {
+    z-index: = -1;
 }

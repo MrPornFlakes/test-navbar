@@ -1,0 +1,29 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+#test {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border-radius: 0px 50% / 20px 0em 30px 5em;
+  padding-left: 10%;
+  background-color: #EFECCA;
+}
+
+.navbar-brand {
+    font-family: Brush Script MT;
+}
+
+.col-sm-3 {
+  margin-top: 80px;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+  background-color: #EFECCA;
+  height: 800px;
+}
+
+#colones {
+
+}
